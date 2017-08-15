@@ -1,0 +1,28 @@
+.cfu-button-container {
+  >.button {
+    background-color: #000000;
+    color: #ffffff;
+    display: block;
+    float: left;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    &:hover {
+      border-bottom: 0.5rem solid #efeb00;
+    }
+    &:active {
+      background-color: #515151;
+    }
+  }
+  >.text {
+    display: inline-block;
+    padding-top: 1rem;
+  }
+  &:focus {
+    >.button {
+      outline: 0.3rem dotted #000000;
+    }
+  }
+}

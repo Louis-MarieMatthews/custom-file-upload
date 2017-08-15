@@ -1,0 +1,38 @@
+.cfu > .cfu-button-container {
+  display: none;
+  padding-left: 0;
+  padding-right: 0; }
+.cfu.-enabled > .cfu-button-container {
+  background: none;
+  border: none;
+  display: block;
+  margin-left: -1rem; }
+.cfu.-enabled > .input {
+  width: 0;
+  height: 0;
+  overflow: hidden; }
+
+.cfu-button-container > .button {
+  background-color: #000000;
+  color: #ffffff;
+  display: block;
+  float: left;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase; }
+  .cfu-button-container > .button:hover {
+    border-bottom: 0.5rem solid #efeb00; }
+  .cfu-button-container > .button:active {
+    background-color: #515151; }
+.cfu-button-container > .text {
+  display: inline-block;
+  padding-top: 1rem; }
+.cfu-button-container:focus > .button {
+  outline: 0.3rem dotted #000000; }
+
+body {
+  background: red; }
+
+/*# sourceMappingURL=cfu.css.map */

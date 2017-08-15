@@ -1,0 +1,21 @@
+.cfu {
+  >.cfu-button-container {
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.-enabled {
+    >.cfu-button-container {
+      background: none;
+      border: none;
+      display: block;
+      margin-left: -1rem;
+    }
+    >.input {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+  }
+}
